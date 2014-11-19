@@ -10,5 +10,7 @@ public static void main(String[] args) {
 	System.out.println("Introduce el radio de la esfera"); 
 	radio=leerradio.nextInt(); 
 	longitud = 2 * (Math.PI)* radio;
+	System.out.println("La longitud de la circunferencia cuyo radio " + radio + " es " + longitud); 
+			System.out.println("Finalizado Version 3");
  } 
 } 
